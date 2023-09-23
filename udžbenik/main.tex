@@ -1,0 +1,25 @@
+\documentclass{report}
+\usepackage{lipsum}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Osnove web programiranja}}
+\author{\huge{Karlo Vizec}}
+\date{\today}
+
+\begin{document}
+
+    \maketitle
+    \newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+    \pdfbookmark[section]{\contentsname}{toc}
+    \tableofcontents
+    \pagebreak
+
+    \chapter{Uvod u web programiranje}
+        \lipsum
+        \section{Što rade web stranice?}
+            \lipsum
+\end{document}
