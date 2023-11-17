@@ -1,0 +1,39 @@
+body {
+    background-color: #1f2937;
+    font-family: "Inter", sans-serif;
+}
+
+.page-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.info-box {
+    background-color: #111827;
+    width: 720px;
+    height: 360px;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+}
+
+.info-box > h2 {
+    color: white;
+    text-align: center;
+
+}
+
+.info-box > p {
+    text-align: left;
+    color: white;
+    font-size: 14px;
+}
+
+.info-box > img {
+    border-radius: 20px;
+    margin-top: 15px;
+}
