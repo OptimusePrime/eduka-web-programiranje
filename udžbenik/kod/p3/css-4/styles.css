@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: #4338ca;
+}
+
+.navbar > ul {
+    padding-left: 20px;
+    width: inherit;
+    height: inherit;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    gap: 7px;
+    list-style: none;
+}
+
+.navbar > ul > li > a {
+    font-size: 22px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
